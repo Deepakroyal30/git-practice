@@ -1,0 +1,26 @@
+.mainbox{
+    width: 50%;
+    height: 25vh;
+    margin: 200px auto;
+    color: black;
+}
+#img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#loadingbar {
+    width: 100%;
+    background-color: #f3f3f3;
+    height: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #loadinganim {
+    width: 0;
+    height: 100%;
+    background-color: #4caf50;
+    transition:  3s linear;
+  }
+  
